@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_live_assist"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="Live Assist" />
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Gallery" />
+    <item
+        android:id="@+id/nav_artist_connect"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Connect" />
+</menu>

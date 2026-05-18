@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- SECTION 1: WORKSHOPS -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book a Workshop"
+            android:textColor="@color/gold_accent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <include layout="@layout/item_simple_card" android:id="@+id/ws1"/>
+        <include layout="@layout/item_simple_card" android:id="@+id/ws2"/>
+
+        <!-- SECTION 2: STORE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy Miniature Puppets"
+            android:textColor="@color/gold_accent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="12dp"/>
+
+        <include layout="@layout/item_simple_card" android:id="@+id/store1"/>
+        <include layout="@layout/item_simple_card" android:id="@+id/store2"/>
+        <include layout="@layout/item_simple_card" android:id="@+id/store3"/>
+
+        <!-- SECTION 3: HISTORY -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History Feed"
+            android:textColor="@color/gold_accent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="12dp"/>
+
+        <include layout="@layout/item_simple_card" android:id="@+id/hist1"/>
+        <include layout="@layout/item_simple_card" android:id="@+id/hist2"/>
+        <include layout="@layout/item_simple_card" android:id="@+id/hist3"/>
+
+    </LinearLayout>
+</ScrollView>
